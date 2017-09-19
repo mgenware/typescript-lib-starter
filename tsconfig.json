@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
-    "module": "esnext",
+    "module": "es6",
     "target": "es5",
     "lib": [
       "dom",
@@ -20,7 +20,7 @@
     "stripInternal": true,
     "noImplicitAny": true,
     "removeComments": true,
-    "baseUrl": "src",
+    "baseUrl": "./src/",
     "noUnusedLocals": true
   },
   "include": [
