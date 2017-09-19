@@ -106,6 +106,7 @@ const config = (env = DEFAULT_ENV) => {
     // only look for common JavaScript file extension (.js)
     resolve: {
       extensions: ['.ts', '.tsx', '.js'],
+      modules: [resolve('src'), 'node_modules'],
     },
     // add here all 3rd party libraries that you will use as peerDependncies
     // https://webpack.js.org/guides/author-libraries/#add-externals
